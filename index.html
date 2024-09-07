@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://js.arcgis.com/4.25/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.25/"></script>
 
-    <!--  Adding the modules needed for a full screen map app  -->
+    <!--  Adding the modules, API key, and map constant needed for a full screen map app  -->
       <script>
         require([
             "esri/config", "esri/Map", "esri/views/MapView"], 
             function(esriConfig, Map, MapView){
 
-            esriConfig.apiKey = " INSERT API HERE"
+            esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurEeWBrCUPqSi8hnMSbsokZImKDKTL2eumxMlESK1TMtKPTdI_GMZQTS9s-1zCIDaI8rjTTEqNoGYeTdMdEsV4wkjtAkgmwNXW74RdUczlBuiahA-PSVS5LHwrOhW5LCIijXX-zSe97oaTz35YJ1Wn3J_AsPdy09qKfvlsX-KX0h8X7HTW_Wjx9L9jEl3YWNtwzmUVY4mX1G8sVY6ZAg1HJbo0vVcTnXb7OthvFGYA2W-AT1_bKkTwh50"
             const map = new Map({
                 basemap: "arcgis-topographic"  // Basemap layer
             });        
